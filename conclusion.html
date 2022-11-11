@@ -1,0 +1,492 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+        <meta name="description" content="" />
+        <meta name="author" content="" />
+        <title>Programación - Bruno Gonzalez</title>
+        <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+        <!-- Font Awesome icons (free version)-->
+        <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+        <!-- Google fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Lora:400,700,400italic,700italic" rel="stylesheet" type="text/css" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800" rel="stylesheet" type="text/css" />
+        <!-- Core theme CSS (includes Bootstrap)-->
+        <link href="css/styles.css" rel="stylesheet" />
+    </head>
+    <body>
+        <!-- Navigation-->
+        <nav class="navbar navbar-expand-lg navbar-light" id="mainNav">
+            <div class="container px-4 px-lg-5">
+                <a class="navbar-brand" href="index.html">Bruno Gonzalez</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarResponsive">
+                    <ul class="navbar-nav ms-auto py-4 py-lg-0">
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="intro.html">IVA</a></li>
+                        <li class="nav-item"><a class="nav-link px-lg-3 py-3 py-lg-4" href="conclusion.html">Quiz</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <!-- Page Header-->
+        <header class="masthead" style="background-image: url('assets/img/home-bg.jpg')">
+            <div class="container position-relative px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <div class="site-heading">
+                            <h1 aling="center">PROGRAMACIÓN</h1>
+                            <h2 aling="center">QUIZ</h1>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- Main Content-->
+        <article class="mb-4">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <main id="main">
+                            <section id="seccion1">
+                                <table>
+                                    <tr>
+                                        <td colspan="3"><b>1. Can I park here?</b></td><p id="preg"></p>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="a1" name="1" id="r1a"/>Sorry, I did that.</td>
+                                        <td><input type="radio" value="a2" name="1" id="r2a"/>It's the same place.</td> 
+                                        <td><input type="radio" value="a3" name="1" id="r3a" checked="true"/>Only for half an hour.</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>2. What colour will you paint the children's bedroom?</b></td><p id="preg"></p>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="b1" name="2" />I hope it was right.</td>
+                                        <td><input type="radio" value="b2" name="2" checked="true"/>We can't decide.</td> 
+                                        <td><input type="radio" value="b3" name="2" />It wasn't very difficult.</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>3. I can't understand this email.</b></td><p id="preg"></p>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="c1" name="3" checked="true"/>Would you like some help?</td>
+                                        <td><input type="radio" value="c2" name="3" />Don't you know?</td> 
+                                        <td><input type="radio" value="c3" name="3" />I suppose you can.</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>4. I'd like two tickets for tomorrow night.</b></td><p id="preg"></p>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="d1" name="4" />How much did you pay?</td>
+                                        <td><input type="radio" value="d2" name="4" />Afternoon and evening.</td> 
+                                        <td><input type="radio" value="d3" name="4" checked="true"/>I'll just check for you.</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>5. Shall we go to the gym now?</b></td><p id="r5"></p>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="e1" name="5" checked="true"/>I'm too tired.</td>
+                                        <td><input type="radio" value="e2" name="5" />It's very good.</td> 
+                                        <td><input type="radio" value="e3" name="5" />Not at all.</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>6. His eyes were ...... bad that he couldn't read the number plate of the car in front.</b></td><p id="r6"></p>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="f1" name="6" />such</td>
+                                        <td><input type="radio" value="f2" name="6" />too</td> 
+                                        <td><input type="radio" value="f3" name="6" checked="true"/>so</td>
+                                        <td><input type="radio" value="f4" name="6" />very</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>7. The company needs to decide ...... and for all what its position is on this point.</b></td><p id="r7"></p>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="g1" name="7" />here</td>
+                                        <td><input type="radio" value="g2" name="7" checked="true"/>once</td> 
+                                        <td><input type="radio" value="g3" name="7" />first</td>
+                                        <td><input type="radio" value="g4" name="7" />finally</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>8. Don't put your cup on the ...... of the table – someone will knock it off.</b></td><p id="r8"></p>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="h1" name="8" />outside</td>
+                                        <td><input type="radio" value="h2" name="8" checked="true"/>edge</td> 
+                                        <td><input type="radio" value="h3" name="8" />boundary</td>
+                                        <td><input type="radio" value="h4" name="8" />border</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>9. I'm sorry - I didn't ...... to disturb you.</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="i1" name="9" />hope</td>
+                                        <td><input type="radio" value="i2" name="9" />think</td> 
+                                        <td><input type="radio" value="i3" name="9" checked="true"/>mean</td>
+                                        <td><input type="radio" value="i4" name="9" />suppose</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>10. The singer ended the concert ...... her most popular song.</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="j1" name="10" />by</td>
+                                        <td><input type="radio" value="j2" name="10" checked="true"/>with</td> 
+                                        <td><input type="radio" value="j3" name="10" />in</td>
+                                        <td><input type="radio" value="j4" name="10" />as</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>11. Would you mind ...... these plates a wipe before putting them in the cupboard?</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="k1" name="11" />making</td>
+                                        <td><input type="radio" value="k2" name="11" />doing</td> 
+                                        <td><input type="radio" value="k3" name="11" />getting</td>
+                                        <td><input type="radio" value="k4" name="11" checked="true"/>giving</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>12. I was looking forward ...... at the new restaurant, but it was closed.</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="l1" name="12" />to eat</td>
+                                        <td><input type="radio" value="l2" name="12" />to have eaten</td> 
+                                        <td><input type="radio" value="l3" name="12" checked="true"/>to eating</td>
+                                        <td><input type="radio" value="l4" name="12" />eating</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>13. ...... tired Melissa is when she gets home from work, she always makes time to say goodnight to the children.</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="m1" name="13" />Whatever</td>
+                                        <td><input type="radio" value="m2" name="13" checked="true"/>No matter how</td> 
+                                        <td><input type="radio" value="m3" name="13" />However much</td>
+                                        <td><input type="radio" value="m4" name="13" />Although</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>14. It was only ten days ago ...... she started her new job.</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="n1" name="14" />then</td>
+                                        <td><input type="radio" value="n2" name="14" />since</td> 
+                                        <td><input type="radio" value="n3" name="14" />after</td>
+                                        <td><input type="radio" value="n4" name="14" checked="true"/>that</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>15. The shop didn't have the shoes I wanted, but they've ...... a pair specially for me.</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="o1" name="15" />booked</td>
+                                        <td><input type="radio" value="o2" name="15" checked="true"/>ordered</td> 
+                                        <td><input type="radio" value="o3" name="15" />commanded</td>
+                                        <td><input type="radio" value="o4" name="15" />asked</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>16. Have you got time to discuss your work now or are you ...... to leave?</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="p1" name="16" />thinking</td>
+                                        <td><input type="radio" value="p2" name="16" />round</td> 
+                                        <td><input type="radio" value="p3" name="16" />planned</td>
+                                        <td><input type="radio" value="p4" name="16" checked="true"/>about</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>17. She came to live here ...... a month ago.</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="q1" name="17" />quite</td>
+                                        <td><input type="radio" value="q2" name="17" />beyond</td> 
+                                        <td><input type="radio" value="q3" name="17" />already</td>
+                                        <td><input type="radio" value="q4" name="17" checked="true"/>almost</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>18. Once the plane is in the air, you can ...... your seat belts if you wish.</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="r1" name="18" />undress</td>
+                                        <td><input type="radio" value="r2" name="18" checked="true"/>unfasten</td> 
+                                        <td><input type="radio" value="r3" name="18" />unlock</td>
+                                        <td><input type="radio" value="r4" name="18" />untie</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>19. I left my last job because I had no ...... to travel.</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="s1" name="19" />place</td>
+                                        <td><input type="radio" value="s2" name="19" />position</td> 
+                                        <td><input type="radio" value="s3" name="19" checked="true"/>opportunity</td>
+                                        <td><input type="radio" value="s4" name="19" />possibility</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>20. It wasn't a bad crash and ...... damage was done to my car.</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="t1" name="20" checked="true"/>little</td>
+                                        <td><input type="radio" value="t2" name="20" />small</td> 
+                                        <td><input type="radio" value="t3" name="20" />light</td>
+                                        <td><input type="radio" value="t4" name="20" />mere</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>21. I'd rather you ...... to her why we can't go.</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="u1" name="21" />would explain</td>
+                                        <td><input type="radio" value="u2" name="21" checked="true"/>explained</td> 
+                                        <td><input type="radio" value="u3" name="21" />to explain</td>
+                                        <td><input type="radio" value="u4" name="21" />will explain</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>22. Before making a decision, the leader considered all ...... of the argument.</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="v1" name="22" checked="true"/>sides</td>
+                                        <td><input type="radio" value="v2" name="22" />features</td> 
+                                        <td><input type="radio" value="v3" name="22" />perspectives</td>
+                                        <td><input type="radio" value="v4" name="22" />shades</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>23. This new printer is recommended as being ...... reliable.</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="w1" name="23" />greatly</td>
+                                        <td><input type="radio" value="w2" name="23" checked="true"/>highly</td> 
+                                        <td><input type="radio" value="w3" name="23" />strongly</td>
+                                        <td><input type="radio" value="w4" name="23" />readily</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>24. When I realised I had dropped my gloves, I decided to ...... my steps.</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="x1" name="24" checked="true"/>retrace</td>
+                                        <td><input type="radio" value="x2" name="24" />regress</td> 
+                                        <td><input type="radio" value="x3" name="24" />resume</td>
+                                        <td><input type="radio" value="x4" name="24" />return</td>
+                                    </tr>
+                            
+                                    <tr>
+                                        <td colspan="3"><b>25. Anne's house is somewhere in the ...... of the railway station.</b></td>
+                                    </tr>
+                                    <tr>
+                                        <td><input type="radio" value="y1" name="25" />region</td>
+                                        <td><input type="radio" value="y2" name="25" />quarter</td> 
+                                        <td><input type="radio" value="y3" name="25" checked="true"/>vicinity</td>
+                                        <td><input type="radio" value="y4" name="25" />district</td>
+                                    </tr>
+
+                                    <tr>
+                                        <td colspan="2" aling="center"><input type="button" value="Verificar respuestas" onclick="comprobarRadio(respuestaCorrecta)" /></td>
+                                    </tr>
+
+                                </table>
+                            </section>
+
+                            
+                            
+                            <section id="seccion2">
+                                <p id="resultados">Respuestas correctas:</br>Respuestas incorrectas:<br>Promedio:</p>
+                                <p id="beca">Beca:</p>
+                            </section>
+                        </main>
+                        
+                        <script type="text/javascript">
+                            var respuestaCorrecta = new Array("a3","b2","c1","d3","e1","f3","g2","h2","i3","j2","k4","l3","m2","n4","o2","p4","q4","r2","s3","t1","u2","v1","w2","x1","y3");
+                                function comprobarRadio(vector){
+                                    var RespuestasBuenas=0;
+                                    var RespuestasMalas=0;
+                        
+                                    var res1=document.getElementById("r3a");
+                        
+                                    for(j=0; j< vector.length; j++){
+                                        var radios = document.getElementsByName(j+1);
+                                        for(i=0; i< radios.length;i++){
+                                            if (radios[i].checked){
+                                                var valor = radios[i].value;
+                                                if(valor == vector[j]) {
+                                                    RespuestasBuenas++;
+                                                    break;
+                                                }else{
+                                                    RespuestasMalas++;
+                                                    break;
+                                                }
+                        
+                                            }
+                                        }
+                                    }
+                        
+                                    if(RespuestasBuenas>=7){
+                                        alert("Pasaste");
+                                    }else{
+                                        alert("Reprobaste");
+                                    }
+                        
+                                    var promedio=0;
+                        
+                                    if(RespuestasBuenas==1){
+                                        promedio = 0.4;
+                                    }
+                                    if(RespuestasBuenas==2){
+                                        promedio = 0.8;
+                                    }
+                                    if(RespuestasBuenas==3){
+                                        promedio = 1.2;
+                                    }
+                                    if(RespuestasBuenas==4){
+                                        promedio = 1.6;
+                                    }
+                                    if(RespuestasBuenas==5){
+                                        promedio = 2;
+                                    }
+                                    if(RespuestasBuenas==6){
+                                        promedio = 2.4;
+                                    }
+                                    if(RespuestasBuenas==7){
+                                        promedio = 2.8;
+                                    }
+                                    if(RespuestasBuenas==8){
+                                        promedio = 3.2;
+                                    }
+                                    if(RespuestasBuenas==9){
+                                        promedio = 3.6;
+                                    }
+                                    if(RespuestasBuenas==10){
+                                        promedio = 4;
+                                    }
+                                    if(RespuestasBuenas==11){
+                                        promedio = 4.4;
+                                    }
+                                    if(RespuestasBuenas==12){
+                                        promedio = 4.8;
+                                    }
+                                    if(RespuestasBuenas==13){
+                                        promedio = 5.2;
+                                    }
+                                    if(RespuestasBuenas==14){
+                                        promedio = 5.6;
+                                    }
+                                    if(RespuestasBuenas==15){
+                                        promedio = 6;
+                                    }
+                                    if(RespuestasBuenas==16){
+                                        promedio = 6.4;
+                                    }
+                                    if(RespuestasBuenas==17){
+                                        promedio = 6.8;
+                                    }
+                                    if(RespuestasBuenas==18){
+                                        promedio = 7.2;
+                                    }
+                                    if(RespuestasBuenas==19){
+                                        promedio = 7.6;
+                                    }
+                                    if(RespuestasBuenas==20){
+                                        promedio = 8;
+                                    }
+                                    if(RespuestasBuenas==21){
+                                        promedio = 8.4;
+                                    }
+                                    if(RespuestasBuenas==22){
+                                        promedio = 8.8;
+                                    }
+                                    if(RespuestasBuenas==23){
+                                        promedio = 9.2;
+                                    }
+                                    if(RespuestasBuenas==24){
+                                        promedio = 9.6;
+                                    }
+                                    if(RespuestasBuenas==25){
+                                        promedio = 10;
+                                    }
+                        
+                                    if(promedio>=9.6){
+                                        alert("Felicidades, obtuviste una beca");
+                                        document.getElementById("beca").innerHTML="Beca: <b>Si Aplica</b>";
+                                    }else{
+                                        document.getElementById("beca").innerHTML="Beca: <b>No Aplica</b>";
+                                    }
+                        
+                                    document.getElementById("resultados").innerHTML="Respuestas correctas: "+""+"<b>" + RespuestasBuenas +"</b>"+ "</br>"+ "Respuestas incorrectas: "+ " "+ "<b>"+ RespuestasMalas + "</b><br>Promedio: <b>" + promedio + "</b>";
+                        
+                                }
+                        </script>
+                    </div>
+                </div>
+            </div>
+        </article>
+
+        <!-- Footer-->
+        <footer class="border-top">
+            <div class="container px-4 px-lg-5">
+                <div class="row gx-4 gx-lg-5 justify-content-center">
+                    <div class="col-md-10 col-lg-8 col-xl-7">
+                        <ul class="list-inline text-center">
+
+                            <li class="list-inline-item">
+                                <a href="https://twitter.com/BrunoGonzaProg?t=SESsYs1Q1_K8nQd3FNPYIQ&s=09" target="_blank">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-twitter fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://www.facebook.com/profile.php?id=100015052658108" target="_blank">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-facebook-f fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://github.com/BrunoGClimaco" target="_blank">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-github fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+                            <li class="list-inline-item">
+                                <a href="https://tdprogramacion.000webhostapp.com/" target="_blank">
+                                    <span class="fa-stack fa-lg">
+                                        <i class="fas fa-circle fa-stack-2x"></i>
+                                        <i class="fab fa-000webhost fa-stack-1x fa-inverse"></i>
+                                    </span>
+                                </a>
+                            </li>
+
+                        </ul>
+                        <div class="small text-center text-muted fst-italic">Copyright &copy; Bruno Gonzalez 2022</div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Bootstrap core JS-->
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+        <!-- Core theme JS-->
+        <script src="js/scripts.js"></script>
+    </body>
+</html>
